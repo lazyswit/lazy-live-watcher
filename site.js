@@ -37,4 +37,33 @@
     document.querySelectorAll("[data-language]").forEach((select) => { select.value = selected; });
   }
   document.addEventListener("DOMContentLoaded", () => { const saved = localStorage.getItem("lazyLiveWatcher.language") || "pt-BR"; document.querySelectorAll("[data-language]").forEach((select) => select.addEventListener("change", () => applyLanguage(select.value))); applyLanguage(saved); });
+
+  translations["pt-BR"]["trust.two"] = "canais favoritos<br>monitorados";
+  translations["pt-BR"]["features.channels"] = "Canais favoritos monitorados";
+  translations["pt-BR"]["faq.limit.text"] = "A próxima versão 1.0.1 permitirá monitorar até 15 canais.";
+  translations["pt-BR"]["support.update.text"] = "A versão pública 1.0.0 pode ser atualizada manualmente pelas Releases oficiais do GitHub. A próxima versão 1.0.1 terá um verificador de atualizações integrado.";
+  translations["pt-BR"]["support.companion.text"] = "O Companion ainda não faz parte da versão pública 1.0.0. Ele chegará com a 1.0.1 como integração opcional. Sem o Companion, a 1.0.1 continuará funcionando em modo de janela separada.";
+  translations["pt-BR"]["faq.optional.text"] = "Não. O Companion ainda não faz parte da versão pública 1.0.0; chegará com a 1.0.1 como integração opcional. Sem ele, a 1.0.1 continuará funcionando em janelas separadas.";
+  translations["pt-BR"]["companion.title"] = "Uma aba no Chrome, em breve.";
+  translations["pt-BR"]["companion.text"] = "O Lazy Live Watcher Companion chegará na próxima versão 1.0.1 como integração opcional para abrir lives em novas abas no Google Chrome já aberto. A versão pública 1.0.0 continua funcionando em janelas separadas.";
+  translations["pt-BR"]["modes.tab.text"] = "Recurso planejado para a 1.0.1; requer o Companion opcional e preserva as outras abas do Chrome.";
+  translations["en-US"]["trust.two"] = "favorite channels<br>monitored";
+  translations["en-US"]["features.channels"] = "Favorite channels monitored";
+  translations["en-US"]["faq.limit.text"] = "The upcoming 1.0.1 version will support monitoring up to 15 channels.";
+  translations["en-US"]["support.update.text"] = "The public 1.0.0 version can be updated manually through the official GitHub Releases. The upcoming 1.0.1 version will include an integrated update checker.";
+  translations["en-US"]["support.companion.text"] = "Companion is not part of the public 1.0.0 version yet. It will arrive with 1.0.1 as an optional integration. Without Companion, 1.0.1 will continue working in separate-window mode.";
+  translations["en-US"]["faq.optional.text"] = "No. Companion is not part of the public 1.0.0 version yet; it will arrive with 1.0.1 as an optional integration. Without it, 1.0.1 will continue working in separate windows.";
+  translations["en-US"]["companion.title"] = "A Chrome tab, coming soon.";
+  translations["en-US"]["companion.text"] = "Lazy Live Watcher Companion will arrive in the upcoming 1.0.1 version as an optional integration for opening streams in new tabs in an existing Google Chrome window. The public 1.0.0 version continues working in separate windows.";
+  translations["en-US"]["modes.tab.text"] = "Planned for 1.0.1; requires the optional Companion and preserves Chrome's other tabs.";
+  translations["es-419"]["trust.two"] = "canales favoritos<br>monitoreados";
+  translations["es-419"]["features.channels"] = "Canales favoritos monitoreados";
+  translations["es-419"]["faq.limit.text"] = "La próxima versión 1.0.1 permitirá monitorear hasta 15 canales.";
+  translations["es-419"]["support.update.text"] = "La versión pública 1.0.0 puede actualizarse manualmente desde las Releases oficiales de GitHub. La próxima versión 1.0.1 tendrá un verificador de actualizaciones integrado.";
+  translations["es-419"]["support.companion.text"] = "Companion todavía no forma parte de la versión pública 1.0.0. Llegará con la 1.0.1 como integración opcional. Sin Companion, la 1.0.1 seguirá funcionando en modo de ventana separada.";
+  translations["es-419"]["faq.optional.text"] = "No. Companion todavía no forma parte de la versión pública 1.0.0; llegará con la 1.0.1 como integración opcional. Sin él, la 1.0.1 seguirá funcionando en ventanas separadas.";
+  translations["es-419"]["companion.title"] = "Una pestaña de Chrome, próximamente.";
+  translations["es-419"]["companion.text"] = "Lazy Live Watcher Companion llegará en la próxima versión 1.0.1 como integración opcional para abrir transmisiones en nuevas pestañas de una ventana existente de Google Chrome. La versión pública 1.0.0 continúa funcionando en ventanas separadas.";
+  translations["es-419"]["modes.tab.text"] = "Planeado para la 1.0.1; requiere el Companion opcional y conserva las demás pestañas de Chrome.";
+  document.addEventListener("DOMContentLoaded", () => { const trustCount = document.querySelector(".trust-strip div:nth-child(2) strong"); if (trustCount) trustCount.textContent = "♡"; });
 })();
