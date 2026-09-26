@@ -23,7 +23,7 @@ O aplicativo é distribuído como executável self-contained e não exige instal
 
 ## Lazy Live Watcher Companion
 
-O Companion é uma integração opcional para usuários do Google Chrome que desejam abrir transmissões em novas abas da janela existente. Sem ele, o aplicativo continua funcionando normalmente em janelas separadas. A publicação na Chrome Web Store ainda não foi realizada.
+O Companion ainda não faz parte da versão pública 1.0.0. Ele está planejado para a próxima versão 1.0.1 como uma integração opcional para usuários do Google Chrome que desejam abrir transmissões em novas abas da janela existente. Sem o Companion, a 1.0.1 continuará funcionando normalmente em janelas separadas. A publicação na Chrome Web Store ainda não foi realizada.
 
 ## Privacidade
 
