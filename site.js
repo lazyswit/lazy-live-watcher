@@ -34,15 +34,16 @@
   };
 
   const fallback = translations["pt-BR"];
+  const languagePreferenceKey = "lazyLiveWatcher.language.v2";
   function valueFor(key) {
     const current = translations[document.documentElement.lang] || fallback;
     return current[key] || fallback[key] || key;
   }
 
-  function applyLanguage(language) {
+  function applyLanguage(language, persist = false) {
     const selected = translations[language] ? language : "pt-BR";
     document.documentElement.lang = selected;
-    localStorage.setItem("lazyLiveWatcher.language", selected);
+    if (persist) localStorage.setItem(languagePreferenceKey, selected);
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       const value = valueFor(element.dataset.i18n);
       if (value.includes("<")) element.innerHTML = value;
@@ -54,10 +55,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    const saved = localStorage.getItem("lazyLiveWatcher.language") || "pt-BR";
+    const saved = localStorage.getItem(languagePreferenceKey);
+    const initialLanguage = translations[saved] ? saved : "pt-BR";
     document.querySelectorAll("[data-language]").forEach((select) => {
-      select.addEventListener("change", () => applyLanguage(select.value));
+      select.addEventListener("change", () => applyLanguage(select.value, true));
     });
-    applyLanguage(saved);
+    applyLanguage(initialLanguage);
   });
 })();
