@@ -17,13 +17,15 @@ A versão pública atual é a **1.0.0**.
 1. Instale o aplicativo no Windows 10/11 x64.
 2. Conecte sua conta pelo fluxo oficial da Twitch.
 3. Adicione os canais que deseja acompanhar.
-4. Deixe o aplicativo na bandeja; ele abrirá cada nova transmissão uma vez.
+4. Deixe o aplicativo na bandeja; ele abrirá cada nova transmissão uma vez em uma janela gerenciada do navegador selecionado.
 
 O aplicativo é distribuído como executável self-contained e não exige instalação manual do .NET.
 
-## Lazy Live Watcher Companion
+## Arquitetura da próxima versão
 
-O Companion ainda não faz parte da versão pública 1.0.0. Ele está planejado para a próxima versão 1.0.1 como uma integração opcional para usuários do Google Chrome que desejam abrir transmissões em novas abas da janela existente. Sem o Companion, a 1.0.1 continuará funcionando normalmente em janelas separadas. A publicação na Chrome Web Store ainda não foi realizada.
+A versão 1.0.1 está em preparação e usará apenas janelas gerenciadas. Quando um canal entrar ao vivo, o Lazy Live Watcher abrirá a transmissão em uma janela própria no navegador selecionado. Quando a live terminar, somente essa janela será fechada; as demais abas e janelas permanecerão abertas.
+
+Os navegadores suportados são Google Chrome, Microsoft Edge, Mozilla Firefox, Opera, Opera GX e o navegador padrão quando aplicável.
 
 ## Privacidade
 
