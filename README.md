@@ -6,11 +6,11 @@ Site público e página de distribuição do Lazy Live Watcher, um aplicativo Wi
 
 ## Versão pública
 
-A versão pública atual é a **1.0.1**.
+A versão pública atual é a **1.0.2**.
 
-- [Baixar Lazy Live Watcher v1.0.1 para Windows](https://github.com/lazyswit/lazy-live-watcher/releases/download/v1.0.1/LazyLiveWatcher-Setup-1.0.1.exe)
-- [Release v1.0.1](https://github.com/lazyswit/lazy-live-watcher/releases/tag/v1.0.1)
-- [SHA-256](https://github.com/lazyswit/lazy-live-watcher/releases/download/v1.0.1/LazyLiveWatcher-Setup-1.0.1.sha256.txt)
+- [Baixar Lazy Live Watcher v1.0.2 para Windows](https://github.com/lazyswit/lazy-live-watcher/releases/download/v1.0.2/LazyLiveWatcher-Setup-1.0.2.exe)
+- [Release v1.0.2](https://github.com/lazyswit/lazy-live-watcher/releases/tag/v1.0.2)
+- [SHA-256](https://github.com/lazyswit/lazy-live-watcher/releases/download/v1.0.2/LazyLiveWatcher-Setup-1.0.2.sha256.txt)
 
 A versão pública anterior, 1.0.0, permanece disponível no histórico de releases.
 
@@ -25,7 +25,7 @@ O aplicativo é distribuído como executável self-contained e não exige instal
 
 ## Funcionamento atual
 
-A versão 1.0.1 usa apenas janelas gerenciadas. Quando um canal entrar ao vivo, o Lazy Live Watcher abrirá a transmissão em uma janela própria no navegador selecionado. Quando a live terminar, somente essa janela será fechada; as demais abas e janelas permanecerão abertas.
+A versão 1.0.2 usa apenas janelas gerenciadas. Quando um canal entrar ao vivo, o Lazy Live Watcher abrirá a transmissão em uma janela própria no navegador selecionado. Quando a live terminar, somente essa janela será fechada; as demais abas e janelas permanecerão abertas.
 
 Os navegadores suportados são Google Chrome, Microsoft Edge, Mozilla Firefox, Opera, Opera GX e o navegador padrão quando aplicável.
 
