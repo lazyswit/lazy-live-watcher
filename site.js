@@ -53,11 +53,62 @@
       "changelog.102.fixes": "Correcciones en el instalador y desinstalador y pequeñas mejoras de estabilidad."
     }
   };
+  const v110Translations = {
+    "pt-BR": {
+      "roadmap.eyebrow": "PRÓXIMA ATUALIZAÇÃO", "roadmap.title": "Lazy Live Watcher v1.1.0", "roadmap.subtitle": "Modo Gamer + Otimização de Desempenho", "roadmap.status": "EM DESENVOLVIMENTO",
+      "roadmap.intro": "Estamos preparando uma nova atualização com mais controle sobre a abertura automática de transmissões e melhorias planejadas de desempenho para quem acompanha suas lives favoritas enquanto joga.",
+      "roadmap.block.gamer": "MODO GAMER", "roadmap.block.performance": "OTIMIZAÇÃO E DESEMPENHO",
+      "roadmap.gamer.limit.title": "Limite de lives abertas", "roadmap.gamer.limit.text": "Escolha quantas transmissões poderão ser abertas automaticamente ao mesmo tempo: 1, 2, 3 ou sem limite. As demais continuarão sendo monitoradas.",
+      "roadmap.gamer.pause.title": "Pausar a abertura automática", "roadmap.gamer.pause.text": "Pause temporariamente novas aberturas enquanto o monitoramento dos canais continua ativo.",
+      "roadmap.gamer.notifications.title": "Notificações sem abertura", "roadmap.gamer.notifications.text": "Receba avisos quando um streamer entrar ao vivo, sem necessariamente abrir o navegador.",
+      "roadmap.gamer.priority.title": "Favoritos e prioridade", "roadmap.gamer.priority.text": "Defina canais favoritos e quais devem ter prioridade na abertura automática.",
+      "roadmap.performance.intro": "Uma etapa dedicada a medir e melhorar o desempenho do aplicativo, com resultados baseados em testes reais.",
+      "roadmap.performance.cpu.title": "CPU e memória", "roadmap.performance.cpu.text": "Investigar oportunidades para reduzir consumo desnecessário de CPU e RAM, inclusive com o aplicativo minimizado ou na bandeja.",
+      "roadmap.performance.monitoring.title": "Monitoramento eficiente", "roadmap.performance.monitoring.text": "Revisar consultas periódicas à Twitch e operações redundantes, mantendo a detecção das lives correta.",
+      "roadmap.performance.ui.title": "Atualizações da interface", "roadmap.performance.ui.text": "Investigar atualizações desnecessárias para manter o aplicativo responsivo durante os jogos.",
+      "roadmap.performance.tests.title": "Testes de desempenho", "roadmap.performance.tests.text": "Comparar CPU, RAM e tráfego de rede com diferentes quantidades de canais monitorados.",
+      "roadmap.performance.note": "Metas de desenvolvimento: os recursos estão sujeitos a ajustes durante os testes. As transmissões abertas no navegador também consomem internet e recursos independentemente do monitoramento.",
+      "roadmap.status.note": "Sem data de lançamento definida.", "roadmap.download": "Baixar v1.0.2", "roadmap.changelog": "Ver histórico de versões"
+    },
+    "en-US": {
+      "roadmap.eyebrow": "UPCOMING UPDATE", "roadmap.title": "Lazy Live Watcher v1.1.0", "roadmap.subtitle": "Gamer Mode + Performance Optimization", "roadmap.status": "COMING SOON",
+      "roadmap.intro": "We are preparing a new update with more control over automatic stream opening and planned performance improvements for people who follow their favorite streams while gaming.",
+      "roadmap.block.gamer": "GAMER MODE", "roadmap.block.performance": "PERFORMANCE OPTIMIZATION",
+      "roadmap.gamer.limit.title": "Open-live limit", "roadmap.gamer.limit.text": "Choose how many streams may be opened automatically at once: 1, 2, 3, or unlimited. Additional streams will remain monitored.",
+      "roadmap.gamer.pause.title": "Pause automatic opening", "roadmap.gamer.pause.text": "Temporarily pause new openings while channel monitoring continues.",
+      "roadmap.gamer.notifications.title": "Notifications without opening", "roadmap.gamer.notifications.text": "Get alerts when streamers go live without necessarily opening the browser.",
+      "roadmap.gamer.priority.title": "Favorites and priority", "roadmap.gamer.priority.text": "Choose favorite channels and which ones should have priority for automatic opening.",
+      "roadmap.performance.intro": "A dedicated phase to measure and improve the app's performance using real test results.",
+      "roadmap.performance.cpu.title": "CPU and memory", "roadmap.performance.cpu.text": "Investigate opportunities to reduce unnecessary CPU and RAM use, including while the app is minimized or in the Windows tray.",
+      "roadmap.performance.monitoring.title": "Efficient monitoring", "roadmap.performance.monitoring.text": "Review periodic Twitch queries and redundant operations while keeping live detection reliable.",
+      "roadmap.performance.ui.title": "Interface updates", "roadmap.performance.ui.text": "Investigate unnecessary interface updates to keep the app responsive while gaming.",
+      "roadmap.performance.tests.title": "Performance tests", "roadmap.performance.tests.text": "Compare CPU, RAM, and network traffic with different numbers of monitored channels.",
+      "roadmap.performance.note": "Development goals: features may change during testing. Streams opened in the browser also use internet and system resources independently of Lazy Live Watcher's monitoring.",
+      "roadmap.status.note": "No release date has been set.", "roadmap.download": "Download v1.0.2", "roadmap.changelog": "View release history"
+    },
+    "es-419": {
+      "roadmap.eyebrow": "PRÓXIMA ACTUALIZACIÓN", "roadmap.title": "Lazy Live Watcher v1.1.0", "roadmap.subtitle": "Modo Gamer + Optimización del Rendimiento", "roadmap.status": "EN DESARROLLO",
+      "roadmap.intro": "Estamos preparando una nueva actualización con más control sobre la apertura automática de transmisiones y mejoras de rendimiento planeadas para quienes siguen sus transmisiones favoritas mientras juegan.",
+      "roadmap.block.gamer": "MODO GAMER", "roadmap.block.performance": "OPTIMIZACIÓN Y RENDIMIENTO",
+      "roadmap.gamer.limit.title": "Límite de transmisiones abiertas", "roadmap.gamer.limit.text": "Elige cuántas transmisiones podrán abrirse automáticamente al mismo tiempo: 1, 2, 3 o sin límite. Las transmisiones adicionales seguirán monitoreándose.",
+      "roadmap.gamer.pause.title": "Pausar la apertura automática", "roadmap.gamer.pause.text": "Pausa temporalmente las nuevas aperturas mientras el monitoreo de canales continúa activo.",
+      "roadmap.gamer.notifications.title": "Notificaciones sin abrir", "roadmap.gamer.notifications.text": "Recibe avisos cuando un streamer comience una transmisión sin tener que abrir necesariamente el navegador.",
+      "roadmap.gamer.priority.title": "Favoritos y prioridad", "roadmap.gamer.priority.text": "Elige canales favoritos y cuáles deben tener prioridad para la apertura automática.",
+      "roadmap.performance.intro": "Una etapa dedicada a medir y mejorar el rendimiento de la aplicación con resultados basados en pruebas reales.",
+      "roadmap.performance.cpu.title": "CPU y memoria", "roadmap.performance.cpu.text": "Investigar oportunidades para reducir el consumo innecesario de CPU y RAM, incluso con la aplicación minimizada o en la bandeja de Windows.",
+      "roadmap.performance.monitoring.title": "Monitoreo eficiente", "roadmap.performance.monitoring.text": "Revisar las consultas periódicas a Twitch y las operaciones redundantes, manteniendo confiable la detección de transmisiones.",
+      "roadmap.performance.ui.title": "Actualizaciones de la interfaz", "roadmap.performance.ui.text": "Investigar actualizaciones innecesarias de la interfaz para mantener la aplicación ágil mientras juegas.",
+      "roadmap.performance.tests.title": "Pruebas de rendimiento", "roadmap.performance.tests.text": "Comparar CPU, RAM y tráfico de red con diferentes cantidades de canales monitoreados.",
+      "roadmap.performance.note": "Metas de desarrollo: las funciones pueden ajustarse durante las pruebas. Las transmisiones abiertas en el navegador también consumen internet y recursos del sistema independientemente del monitoreo de Lazy Live Watcher.",
+      "roadmap.status.note": "No se ha definido una fecha de lanzamiento.", "roadmap.download": "Descargar v1.0.2", "roadmap.changelog": "Ver historial de versiones"
+    }
+  };
   const fallback = translations["pt-BR"];
   const languagePreferenceKey = "lazyLiveWatcher.language.v2";
   function valueFor(key) {
     const current = translations[document.documentElement.lang] || fallback;
-    return release102Translations[document.documentElement.lang]?.[key] ||
+    return v110Translations[document.documentElement.lang]?.[key] ||
+      release102Translations[document.documentElement.lang]?.[key] ||
       current[key]?.replaceAll("1.0.1", "1.0.2") ||
       fallback[key]?.replaceAll("1.0.1", "1.0.2") || key;
   }
