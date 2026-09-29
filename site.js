@@ -53,6 +53,23 @@
       "changelog.102.fixes": "Correcciones en el instalador y desinstalador y pequeñas mejoras de estabilidad."
     }
   };
+  const release110Translations = {
+    "pt-BR": {
+      "hero.platform": "Windows 10/11 • 64-bit • v1.1.0", "next.text": "A versão 1.1.0 já está publicada. Confira o novo Modo Gamer e as melhorias do atualizador.", "download.button": "Baixar v1.1.0", "support.install.text": "Baixe o instalador oficial da versão 1.1.0 e siga o assistente do Windows.", "faq.free.text": "A versão pública 1.1.0 é distribuída gratuitamente.",
+      "roadmap.eyebrow": "VERSÃO ATUAL", "roadmap.status": "PUBLICADA", "roadmap.intro": "A versão 1.1.0 traz mais controle sobre a abertura automática de transmissões, estabilidade de monitoramento e um atualizador mais transparente.", "roadmap.performance.intro": "Melhorias de estabilidade e eficiência baseadas em testes do aplicativo.", "roadmap.performance.cpu.title": "Atualizações visuais eficientes", "roadmap.performance.cpu.text": "Menos atualizações visuais redundantes ajudam a manter a interface responsiva.", "roadmap.performance.monitoring.title": "Monitoramento coordenado", "roadmap.performance.monitoring.text": "EventSub e polling coordenam as transições para evitar aberturas duplicadas.", "roadmap.performance.ui.title": "Interface responsiva", "roadmap.performance.ui.text": "Atualizações agrupadas preservam o estado mais recente sem trabalho visual desnecessário.", "roadmap.performance.tests.title": "Validação contínua", "roadmap.performance.tests.text": "Cenários simulados verificam concorrência, gravações e estados do monitoramento.", "roadmap.performance.note": "As transmissões abertas no navegador também consomem internet e recursos do sistema independentemente do monitoramento.", "roadmap.status.note": "Versão pública disponível.", "roadmap.download": "Baixar v1.1.0",
+      "changelog.110.status": "PUBLICADA", "changelog.110.date": "Versão pública atual", "changelog.110.intro": "Atualização com o novo Modo Gamer, melhorias de estabilidade e um atualizador mais transparente.", "changelog.gamer.title": "Novo Modo Gamer", "changelog.stability.title": "Estabilidade", "changelog.updater.title": "Atualizador", "changelog.110.gamer": "Limite de 1, 2, 3 ou transmissões ilimitadas; pausa da abertura automática; opção Somente Notificação por canal; favoritos com prioridade.", "changelog.110.stability": "Prevenção de aberturas duplicadas, correções de concorrência, gravações de preferências mais seguras e menos atualizações visuais redundantes.", "changelog.110.updater": "Barra de progresso rosa, progresso real do download, cancelamento, verificação de integridade e tratamento de falhas.", "changelog.110.languages": "Português (Brasil), English e Español (Latinoamérica)."
+    },
+    "en-US": {
+      "hero.platform": "Windows 10/11 • 64-bit • v1.1.0", "next.text": "Version 1.1.0 is now published. Explore Gamer Mode and the updater improvements.", "download.button": "Download v1.1.0", "support.install.text": "Download the official version 1.1.0 installer and follow the Windows setup wizard.", "faq.free.text": "The public version 1.1.0 is distributed for free.",
+      "roadmap.eyebrow": "CURRENT VERSION", "roadmap.status": "PUBLISHED", "roadmap.intro": "Version 1.1.0 brings more control over automatic stream opening, monitoring stability, and a more transparent updater.", "roadmap.performance.intro": "Stability and efficiency improvements based on application testing.", "roadmap.performance.cpu.title": "Efficient visual updates", "roadmap.performance.cpu.text": "Fewer redundant visual updates help keep the interface responsive.", "roadmap.performance.monitoring.title": "Coordinated monitoring", "roadmap.performance.monitoring.text": "EventSub and polling coordinate transitions to prevent duplicate openings.", "roadmap.performance.ui.title": "Responsive interface", "roadmap.performance.ui.text": "Batched updates preserve the latest state without unnecessary visual work.", "roadmap.performance.tests.title": "Continuous validation", "roadmap.performance.tests.text": "Simulated scenarios verify concurrency, writes, and monitoring states.", "roadmap.performance.note": "Streams opened in the browser also use internet and system resources independently of monitoring.", "roadmap.status.note": "Public version available.", "roadmap.download": "Download v1.1.0",
+      "changelog.110.status": "PUBLISHED", "changelog.110.date": "Current public version", "changelog.110.intro": "An update with Gamer Mode, stability improvements, and a more transparent updater.", "changelog.gamer.title": "New Gamer Mode", "changelog.stability.title": "Stability", "changelog.updater.title": "Updater", "changelog.110.gamer": "A limit of 1, 2, 3, or unlimited streams; pause automatic opening; per-channel Notifications Only; favorites with priority.", "changelog.110.stability": "Duplicate-opening prevention, concurrency fixes, safer preference writes, and fewer redundant visual updates.", "changelog.110.updater": "Pink progress bar, real download progress, cancellation, integrity verification, and failure handling.", "changelog.110.languages": "Portuguese (Brazil), English, and Spanish (Latin America)."
+    },
+    "es-419": {
+      "hero.platform": "Windows 10/11 • 64-bit • v1.1.0", "next.text": "La versión 1.1.0 ya está publicada. Conoce el Modo Gamer y las mejoras del actualizador.", "download.button": "Descargar v1.1.0", "support.install.text": "Descarga el instalador oficial de la versión 1.1.0 y sigue el asistente de Windows.", "faq.free.text": "La versión pública 1.1.0 se distribuye gratis.",
+      "roadmap.eyebrow": "VERSIÓN ACTUAL", "roadmap.status": "PUBLICADA", "roadmap.intro": "La versión 1.1.0 ofrece más control sobre la apertura automática, mayor estabilidad del monitoreo y un actualizador más transparente.", "roadmap.performance.intro": "Mejoras de estabilidad y eficiencia basadas en pruebas de la aplicación.", "roadmap.performance.cpu.title": "Actualizaciones visuales eficientes", "roadmap.performance.cpu.text": "Menos actualizaciones visuales redundantes ayudan a mantener la interfaz ágil.", "roadmap.performance.monitoring.title": "Monitoreo coordinado", "roadmap.performance.monitoring.text": "EventSub y polling coordinan las transiciones para evitar aperturas duplicadas.", "roadmap.performance.ui.title": "Interfaz responsiva", "roadmap.performance.ui.text": "Las actualizaciones agrupadas conservan el estado más reciente sin trabajo visual innecesario.", "roadmap.performance.tests.title": "Validación continua", "roadmap.performance.tests.text": "Escenarios simulados verifican concurrencia, guardado y estados del monitoreo.", "roadmap.performance.note": "Las transmisiones abiertas en el navegador también consumen internet y recursos del sistema independientemente del monitoreo.", "roadmap.status.note": "Versión pública disponible.", "roadmap.download": "Descargar v1.1.0",
+      "changelog.110.status": "PUBLICADA", "changelog.110.date": "Versión pública actual", "changelog.110.intro": "Una actualización con Modo Gamer, mejoras de estabilidad y un actualizador más transparente.", "changelog.gamer.title": "Nuevo Modo Gamer", "changelog.stability.title": "Estabilidad", "changelog.updater.title": "Actualizador", "changelog.110.gamer": "Límite de 1, 2, 3 o transmisiones ilimitadas; pausa de la apertura automática; opción Solo Notificaciones por canal; favoritos con prioridad.", "changelog.110.stability": "Prevención de aperturas duplicadas, correcciones de concurrencia, guardado de preferencias más seguro y menos actualizaciones visuales redundantes.", "changelog.110.updater": "Barra de progreso rosa, progreso real de descarga, cancelación, verificación de integridad y tratamiento de fallos.", "changelog.110.languages": "Portugués (Brasil), English y Español (Latinoamérica)."
+    }
+  };
   const v110Translations = {
     "pt-BR": {
       "roadmap.eyebrow": "PRÓXIMA ATUALIZAÇÃO", "roadmap.title": "Lazy Live Watcher v1.1.0", "roadmap.subtitle": "Modo Gamer + Otimização de Desempenho", "roadmap.status": "EM DESENVOLVIMENTO",
@@ -107,18 +124,18 @@
   const languagePreferenceKey = "lazyLiveWatcher.language.v2";
   function valueFor(key) {
     const current = translations[document.documentElement.lang] || fallback;
-    return v110Translations[document.documentElement.lang]?.[key] ||
+    return release110Translations[document.documentElement.lang]?.[key] ||
+      v110Translations[document.documentElement.lang]?.[key] ||
       release102Translations[document.documentElement.lang]?.[key] ||
-      current[key]?.replaceAll("1.0.1", "1.0.2") ||
-      fallback[key]?.replaceAll("1.0.1", "1.0.2") || key;
+      current[key] || fallback[key] || key;
   }
 
   function applyCurrentRelease() {
-    document.querySelectorAll('a[href*="/releases/download/v1.0.1/"]').forEach((link) => {
-      link.href = link.href.replaceAll("/v1.0.1/", "/v1.0.2/").replaceAll("1.0.1", "1.0.2");
+    document.querySelectorAll('a[href*="/releases/download/v1.0.1/"], a[href*="/releases/download/v1.0.2/"]').forEach((link) => {
+      link.href = link.href.replace(/\/v1\.0\.[12]\//, "/v1.1.0/").replace(/1\.0\.[12]/g, "1.1.0");
     });
     document.querySelectorAll(".platform, .site-footer span").forEach((element) => {
-      if (element.textContent?.includes("1.0.1")) element.textContent = element.textContent.replaceAll("1.0.1", "1.0.2");
+      if (element.textContent?.match(/1\.0\.[12]/)) element.textContent = element.textContent.replace(/1\.0\.[12]/g, "1.1.0");
     });
   }
 
